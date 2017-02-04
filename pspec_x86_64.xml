@@ -1,0 +1,112 @@
+<PISI>
+    <Source>
+        <Name>gnome-games</Name>
+        <Packager>
+            <Name>Federico D. Schonborn</Name>
+            <Email>federico.d.schonborn@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>games</PartOf>
+        <Summary xml:lang="en">Simple game launcher for GNOME</Summary>
+        <Description xml:lang="en">Games is a GNOME application to browse your video games library and to easily pick and play a game from it
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gnome-games</Name>
+        <Summary xml:lang="en">Simple game launcher for GNOME</Summary>
+        <Description xml:lang="en">Games is a GNOME application to browse your video games library and to easily pick and play a game from it
+</Description>
+        <PartOf>games</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/amiga.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/atari-2600.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/atari-7800.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/desktop.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/doom.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/dreamcast.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/game-boy-advance.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/game-boy.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/game-cube.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-amiga-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-atari-2600-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-atari-7800-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-desktop-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-doom-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-dreamcast-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-game-boy-advance-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-game-boy-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-game-cube-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-love-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-mame-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-master-system-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-mega-drive-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-neo-geo-pocket-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-nes-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-nintendo-64-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-nintendo-ds-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-pc-engine-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-playstation-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-sega-saturn-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-snes-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-steam-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-wii-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/libgames-wii-ware-plugin.so</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/love.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/mame.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/master-system.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/mega-drive.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/neo-geo-pocket.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/nes.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/nintendo-64.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/nintendo-ds.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/pc-engine.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/playstation.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/sega-saturn.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/snes.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/steam.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/wii-ware.plugin</Path>
+            <Path fileType="library">/usr/lib64/gnome-games/plugins/wii.plugin</Path>
+            <Path fileType="data">/usr/share/appdata/org.gnome.Games.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/org.gnome.Games.desktop</Path>
+            <Path fileType="data">/usr/share/icons/HighContrast/16x16/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/HighContrast/22x22/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/HighContrast/24x24/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/HighContrast/256x256/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/HighContrast/32x32/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/HighContrast/48x48/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/org.gnome.Games.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/gnome-games-symbolic.svg</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>gnome-games-devel</Name>
+        <Summary xml:lang="en">Development files for gnome-games</Summary>
+        <Description xml:lang="en">Games is a GNOME application to browse your video games library and to easily pick and play a game from it
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">gnome-games</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="data">/usr/share/vala*/vapi/*</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-02-02</Date>
+            <Version>3.22.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Federico D. Schonborn</Name>
+            <Email>federico.d.schonborn@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

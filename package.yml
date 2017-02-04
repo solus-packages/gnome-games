@@ -1,0 +1,26 @@
+name       : gnome-games
+version    : 3.22.0
+release    : 1
+source     :
+    - https://git.gnome.org/browse/gnome-games/snapshot/gnome-games-3.22.0.tar.xz : d0bd820db75bab058e5e555209bddafc2f98051be0002f2fca4969f14a58b7b0
+license    : GPL-3.0
+component  : games
+summary    : Simple game launcher for GNOME
+description: |
+    Games is a GNOME application to browse your video games library and to easily pick and play a game from it
+builddeps  :
+    - pkgconfig(grilo-0.3)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libarchive)
+    - pkgconfig(libevdev)
+    - pkgconfig(libpulse)
+    - pkgconfig(libsoup-2.4)
+    - pkgconfig(retro-gtk-0.8)
+    - pkgconfig(tracker-sparql-1.0)
+    - vala
+setup      : |
+    %autogen --disable-static
+build      : |
+    %make
+install    : |
+    %make_install
