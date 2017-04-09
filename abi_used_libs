@@ -12,7 +12,6 @@ libgrilo-0.3.so.0
 libgtk-3.so.0
 libgudev-1.0.so.0
 libpthread.so.0
-libretro-gobject.so.0
 libretro-gtk.so.0
 libsoup-2.4.so.1
 libtracker-sparql-1.0.so.0

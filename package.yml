@@ -1,8 +1,8 @@
 name       : gnome-games
-version    : 3.22.0
-release    : 1
+version    : 3.24.0.2
+release    : 2
 source     :
-    - https://git.gnome.org/browse/gnome-games/snapshot/gnome-games-3.22.0.tar.xz : d0bd820db75bab058e5e555209bddafc2f98051be0002f2fca4969f14a58b7b0
+    - http://ftp.acc.umu.se/pub/gnome/sources/gnome-games/3.24/gnome-games-3.24.0.2.tar.xz : 99c5d1b6bdbb46a03c7075e9b48d61d61890a9cd0b6b0b25f93b0b5d51e60070
 license    : GPL-3.0
 component  : games
 summary    : Simple game launcher for GNOME
@@ -15,11 +15,11 @@ builddeps  :
     - pkgconfig(libevdev)
     - pkgconfig(libpulse)
     - pkgconfig(libsoup-2.4)
-    - pkgconfig(retro-gtk-0.8)
+    - pkgconfig(retro-gtk-0.10)
     - pkgconfig(tracker-sparql-1.0)
     - vala
 setup      : |
-    %autogen --disable-static
+    %configure --disable-static
 build      : |
     %make
 install    : |
