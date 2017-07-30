@@ -1,8 +1,8 @@
 name       : gnome-games
-version    : 3.24.0.2
-release    : 2
+version    : 3.24.1
+release    : 3
 source     :
-    - http://ftp.acc.umu.se/pub/gnome/sources/gnome-games/3.24/gnome-games-3.24.0.2.tar.xz : 99c5d1b6bdbb46a03c7075e9b48d61d61890a9cd0b6b0b25f93b0b5d51e60070
+    - http://ftp.acc.umu.se/pub/gnome/sources/gnome-games/3.24/gnome-games-3.24.1.tar.xz : e81fbd16e294bde572b4041c8dd068588525138066a20f4fda29be20c28fde8d
 license    : GPL-3.0
 component  : games
 summary    : Simple game launcher for GNOME
@@ -19,6 +19,7 @@ builddeps  :
     - pkgconfig(tracker-sparql-1.0)
     - vala
 setup      : |
+    %patch -p1 < $pkgfiles/0001-plugins-steam-Use-fallback-Steam-path-when-registry-.patch
     %configure --disable-static
 build      : |
     %make
