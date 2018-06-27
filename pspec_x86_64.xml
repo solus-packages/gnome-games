@@ -19,7 +19,7 @@
 </Description>
         <PartOf>games</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/gnome-games</Path>
             <Path fileType="library">/usr/lib64/gnome-games/plugins/desktop.plugin</Path>
             <Path fileType="library">/usr/lib64/gnome-games/plugins/dreamcast.plugin</Path>
             <Path fileType="library">/usr/lib64/gnome-games/plugins/game-cube.plugin</Path>
@@ -63,7 +63,29 @@
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/org.gnome.Games.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/org.gnome.Games.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.Games-symbolic.svg</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fur/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@latin/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/gnome-games.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/gnome-games.mo</Path>
             <Path fileType="data">/usr/share/metainfo/org.gnome.Games.appdata.xml</Path>
         </Files>
     </Package>
@@ -74,16 +96,16 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="5">gnome-games</Dependency>
+            <Dependency release="6">gnome-games</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="data">/usr/share/vala*/vapi/*</Path>
+            <Path fileType="header">/usr/include/libgnome-games.h</Path>
+            <Path fileType="data">/usr/share/vala/vapi/gnome-games.vapi</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2018-04-22</Date>
+        <Update release="6">
+            <Date>2018-06-27</Date>
             <Version>3.28.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>

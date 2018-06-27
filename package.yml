@@ -1,6 +1,6 @@
 name       : gnome-games
 version    : 3.28.0
-release    : 5
+release    : 6
 source     :
     - https://download.gnome.org/sources/gnome-games/3.28/gnome-games-3.28.0.tar.xz : 64689b7b916345a790f3599b9127206ae055983a90c25bd1356e8827834ea200
 license    : GPL-3.0
